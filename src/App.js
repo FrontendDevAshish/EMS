@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Login from './components/Auth/Login';
 
 function App() {
   return (
     <div className="App">
-   <h1>lets get serious</h1>
-   thode ab pelega babhutiya
+   <>
+    <Login/>
+   </>
     </div>
   );
 }
