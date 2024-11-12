@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useContext } from 'react'
 
 const AllTask = () => {
 
-    const [userData,setUserData] =  useContext()
+    const [userData,setUserData] =  useState([])
 
     return (
 
